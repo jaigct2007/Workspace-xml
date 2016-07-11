@@ -1,2 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/jayakumarramachandran/git/XML/.git\:
+GitRepositoriesView.GitDirectories=/Users/jayakumarramachandran/git/XML/.git\:/Users/jayakumarramachandran/git/.git\:/Users/jayakumarramachandran/Documents/Workspace-xml/.git\:
+RepositorySearchDialogDeepSearch=false
+RepositorySearchDialogSearchPath=/Users/jayakumarramachandran/git
 eclipse.preferences.version=1
