@@ -1,0 +1,14 @@
+package com.myexample;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+MyInterFace in=new MyClass1() ;
+in.printMessage("Hello World");
+	
+	
+
+	}
+
+}

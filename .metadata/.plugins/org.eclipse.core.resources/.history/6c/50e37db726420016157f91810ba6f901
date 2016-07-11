@@ -1,0 +1,45 @@
+package my.library.example;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class MyLibrary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
+		Scanner scan = new Scanner(System.in);
+    
+ArrayList<Library> data= new ArrayList<Library>();
+         int num = scan.nextInt();
+        
+        System.out.println(num);
+        for (int i = 0; i < num; i++) {
+			System.out.println("Enter book name");
+			String bookName=scan.next();
+			//System.out.println(bookName);
+			System.out.println("Enter Book Price");
+			int bookPrice=scan.nextInt();
+			System.out.println("Enter Book Author");
+		    String bookAuthor=scan.next();
+		    Library m=new Library(bookName, bookPrice, bookAuthor);
+		    data.add(m);
+		    
+	System.out.println("BookName " +bookName+ "Price Is " +bookPrice + "Written By " + bookAuthor);
+		}
+
+       for (int i = 0; i < data.size(); i++) {
+    	  System.out.println("BookAuthor  :"+ data.get(i).getBookAuthor());
+    	  System.out.println("BookPrice  :"+ data.get(i).getBookPrice());
+
+    	  System.out.println("BookName  :"+ data.get(i).getBookName());
+
+    	  
+		
+	}
+              
+    }
+	}
+
+

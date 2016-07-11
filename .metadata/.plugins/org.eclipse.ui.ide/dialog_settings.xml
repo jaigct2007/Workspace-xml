@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/jayakumarramachandran/Documents/workspace/XMLParser"/>
+			<item value=""/>
+			<item value="/Users/jayakumarramachandran/Documents/Learning Docs/XML Integration with java/Ex_Files_XML_Java/Exercise Files/03_DOM/DOMAddData"/>
+			<item value="/Users/jayakumarramachandran/Documents/Learning Docs/XML Integration with java/Ex_Files_XML_Java/Exercise Files/Solutions/03_DOM/DOMChildElements_solution"/>
+			<item value="/Users/jayakumarramachandran/Documents/Learning Docs/XML Integration with java/Ex_Files_XML_Java/Exercise Files/01_GettingStarted/DataProvider"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="/Users/jayakumarramachandran/Documents/Learning Docs/XML Integration with java/Ex_Files_XML_Java/Exercise Files/03_DOM/DOMChildElements.zip"/>
+			<item value="/Users/jayakumarramachandran/Documents/Learning Docs/XML Integration with java/Ex_Files_XML_Java/Exercise Files/Solutions/03_DOM/DOMChildElements_solution.zip"/>
+			<item value="/Users/jayakumarramachandran/Documents/Learning Docs/XML Integration with java/Ex_Files_XML_Java/Exercise Files/01_GettingStarted/DataProvider.zip"/>
+		</list>
+	</section>
+</section>
