@@ -1,0 +1,13 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s="1.56";
+float n=Float.parseFloat(s);
+System.out.println(n);
+
+char c=n;
+	}
+
+}

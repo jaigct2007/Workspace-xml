@@ -1,0 +1,23 @@
+import java.math.BigDecimal;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double value=.012323000;
+double pSum= value+value+value;
+System.out.println("Sum of primitives" +pSum);
+
+String strValue=Double.toString(value);
+BigDecimal dec= new BigDecimal(strValue);
+BigDecimal bSum=dec.add(dec).add(dec);
+System.out.println(bSum.toString());
+System.out.println(dec.toString());
+
+int val=6;
+
+boolean b1=true;
+boolean b2=!b1;
+System.out.println(b2);
+	}
+}

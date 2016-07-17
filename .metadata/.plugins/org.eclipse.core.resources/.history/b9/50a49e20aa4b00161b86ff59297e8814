@@ -1,0 +1,12 @@
+package my.library.example;
+
+public class MyException extends Exception {
+	public static final String myErrorMsg="Book Value cannot be decimal";
+	
+	public String getMessage()
+	{
+		System.out.println(myErrorMsg);
+		return myErrorMsg;
+	}
+
+}

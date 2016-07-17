@@ -1,0 +1,13 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a="Jaya,suba,siva";
+		String b="Suba";
+		System.out.println(a+b);
+		a.split(,)
+
+	}
+
+}

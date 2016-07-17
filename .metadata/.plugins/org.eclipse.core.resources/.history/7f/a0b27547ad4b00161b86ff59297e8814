@@ -1,0 +1,23 @@
+package com.example;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+public class DomParser {
+
+	public static void main(String[] args) throws ParserConfigurationException {
+		// TODO Auto-generated method stub
+DocumentBuilderFactory factory=DocumentBuilderFactory.newInstance();
+DocumentBuilder builder=factory.newDocumentBuilder();
+Document personInfo=builder.newDocument();
+Element e=personInfo.createElement("PersonInfoBillTo");
+personInfo.appendChild(e);
+System.out.println(personInfo.getDocumentElement());
+
+	}
+
+}

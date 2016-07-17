@@ -1,8 +1,0 @@
-package my.library.example;
-
-public class Library {
-
-	String bookName;
-	int bookPrice;
-	String bookAuthor;
-}

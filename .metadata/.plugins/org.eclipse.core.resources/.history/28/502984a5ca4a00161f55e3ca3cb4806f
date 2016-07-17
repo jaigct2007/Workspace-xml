@@ -1,0 +1,11 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s="1.56";
+int n=Integer.parseInt(s, 2);
+System.out.println(n);
+	}
+
+}
